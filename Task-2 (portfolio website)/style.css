@@ -1,0 +1,142 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+ background-image: linear-gradient(to left,purple,cyan);
+    text-align: center;
+    background-color:green;
+    color:white;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.about-myself {
+    padding: 2rem 0;
+    background-color:rgba(210, 180, 140, 0.474);
+}
+
+.about-myself img {
+    max-width: 10%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0cqi;
+}
+
+.about-myself p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: large;
+    font: weight 100px;
+    font-family:sans-serif;
+}
+
+.skills li {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+
+
+.skills {
+    background-color: #f5f5f5;
+    padding: 2.5rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.skills h2 {
+    text-align: center;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+#projects {
+    margin-top: 2rem;
+    padding: 1.5rem 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: linear-gradient(to left,  rgb(109, 27, 43) 0.8%, rgb(11, 26, 69) 99.4% );
+}
+
+.project {
+    margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+      }
+      
+#projects  {
+    color: white;
+}
+
+
+.project img {
+    max-width: 100%;
+}
+.project p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.resume {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.contact {
+    text-align: center;
+    padding: 2.5rem;
+    font-size: large;
+}
+
+.resume a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration:solid;
+    background-color: rgb(41, 167, 218);
+    color:white;
+    border-radius: 40px;
+}
+
+footer {
+    text-align: center;
+    background-image:linear-gradient(to right, #29323C, #485563);
+   font-size: large;
+    color:white;
+    padding: 1rem 0;
+
+}
+
+.container {
+    
+   align-items: center;
+    justify-content:center;
+    gap: 10px;
+    display: flex;
+    flex-direction:column;
+   
+}
+.container img  {
+    cursor: pointer;
+}
